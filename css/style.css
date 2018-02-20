@@ -291,7 +291,7 @@ a:hover {
 ============================ */
 
 .about {
-	padding:80px 0 80px 0;
+	padding:80px;
 	background:#fff;
 }
 
@@ -304,7 +304,7 @@ a:hover {
 .about .text-center p {
 	margin-top:20px;
 	margin-bottom:80px;
-	color:#aaa;
+	color:black;
 } 
 
 .btn-gamp a {
@@ -1163,3 +1163,21 @@ ul.social-network li a {
 	font-size:12px;
 	text-shadow:none;
 } 
+
+.list-links {
+    float: left;
+    width: 100%;
+    padding: 0px;
+}
+.list-links a {
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: 20px;
+    padding: 7px 2px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.list-links a:hover {
+    color: #e0401d;
