@@ -291,7 +291,11 @@ a:hover {
 ============================ */
 
 .about {
+<<<<<<< HEAD
 	padding:10px 0;
+=======
+	padding:80px;
+>>>>>>> 9f5aac9afd5da98765b79e9b1639775a4bc3d0e8
 	background:#fff;
 }
 
@@ -304,7 +308,11 @@ a:hover {
 .about .text-center p {
 	margin-top:20px;
 	margin-bottom:80px;
+<<<<<<< HEAD
 	color:#000000;
+=======
+	color:black;
+>>>>>>> 9f5aac9afd5da98765b79e9b1639775a4bc3d0e8
 } 
 
 .btn-gamp a {
@@ -1167,7 +1175,11 @@ ul.social-network li a {
 	font-weight:600;
 	font-size:12px;
 	text-shadow:none;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 9f5aac9afd5da98765b79e9b1639775a4bc3d0e8
 
 .list-links {
     float: left;
@@ -1186,6 +1198,7 @@ ul.social-network li a {
 }
 .list-links a:hover {
     color: #e0401d;
+<<<<<<< HEAD
 }
 
 ul.a {
@@ -1219,3 +1232,5 @@ ol.d {
 
 
 
+=======
+>>>>>>> 9f5aac9afd5da98765b79e9b1639775a4bc3d0e8
