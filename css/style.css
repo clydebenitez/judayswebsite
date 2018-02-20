@@ -22,7 +22,7 @@ body {
 	overflow-x:hidden;
 }
 
-hi,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
 	color:#272727;
 	line-height:1.1em;
 }
@@ -291,7 +291,7 @@ a:hover {
 ============================ */
 
 .about {
-	padding:80px 0 80px 0;
+	padding:10px 0;
 	background:#fff;
 }
 
@@ -304,7 +304,7 @@ a:hover {
 .about .text-center p {
 	margin-top:20px;
 	margin-bottom:80px;
-	color:#aaa;
+	color:#000000;
 } 
 
 .btn-gamp a {
@@ -1069,6 +1069,11 @@ footer .btn-gamp input {
 	border: 1px solid #fff;
 }
 
+.description {
+    background-color: #fff;
+}
+
+
 .contact-info {
 	color:#fff;
 }
@@ -1162,4 +1167,55 @@ ul.social-network li a {
 	font-weight:600;
 	font-size:12px;
 	text-shadow:none;
-} 
+}
+
+.list-links {
+    float: left;
+    width: 100%;
+    padding: 0px;
+}
+.list-links a {
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: 20px;
+    padding: 7px 2px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.list-links a:hover {
+    color: #e0401d;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: proxima-nova, sans-serif;
+	-webkit-animation-delay: 4s;
+    border-color: bisque;
+	/* Chrome, Safari, Opera */
+	animation-delay: 2s;
+}
+    
+    
+
+
+
