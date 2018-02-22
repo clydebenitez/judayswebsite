@@ -1484,3 +1484,19 @@ display:block;
 .rooms ul li i {
 	margin-bottom: 5px;
 }
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  background-color: #F0F8FF;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+float: none;
+}
