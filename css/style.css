@@ -347,6 +347,20 @@ a:hover {
   transition: all 0.5s;
 }
 
+.gamp1-btn a {
+  float: left;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #272727;
+  color: #ffffff;
+  width: 110px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  line-height: 40px;
+}
+
 .center span {
 	color:#E8CE0E;
 }
