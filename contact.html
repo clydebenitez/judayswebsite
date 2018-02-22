@@ -34,11 +34,11 @@
         <div class="navbar-collapse collapse">
           <div class="menu">
             <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation"><a href="index.html" class="active">Home</a></li>
+              <li role="presentation"><a href="index.html">Home</a></li>
               <li role="presentation"><a href="about.html">About Us</a></li>
               <li role="presentation"><a href="rooms.html">Rooms</a></li>
               <li role="presentation"><a href="gallery.html">Gallery</a></li>
-              <li role="presentation"><a href="contact.html">Contact Us</a></li>
+              <li role="presentation"><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -50,7 +50,7 @@
   <!--/header-->
 
   <div class="map">
-    <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+    <div id="google-map" data-latitude="16.3840" data-longitude="120.5942"></div>
   </div>
 
   <section class="contact-page">
@@ -164,7 +164,7 @@
   <script src="js/jquery.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzkzaBRo6cYiHOUXaAF3Yq0TkVkMVhBzI"></script>
   <script src="js/wow.min.js"></script>
   <script>
     wow = new WOW({}).init();
@@ -178,7 +178,7 @@
       function initialize_google_map() {
         var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
         var mapOptions = {
-          zoom: 14,
+          zoom: 18,
           scrollwheel: false,
           center: myLatlng
         };
