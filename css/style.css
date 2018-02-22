@@ -23,12 +23,12 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color:#272727;
+	color:black;
 	line-height:1.1em;
 }
 
 p {
-	color:#aaa;
+	color:black;
 	font-size:13px;
 }
 a {
@@ -65,9 +65,9 @@ a:hover {
 ============================ */
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
+  height: 20px;
+  padding: 5px 5px;
+  font-size: 20px;
   line-height: 20px;
 }
 
@@ -122,7 +122,7 @@ a:hover {
 .nav-tabs > li > a {	
 	border-radius:0;
 	color:#fff;
-	padding:30px;
+	padding:20px;
     background:#65AAF0;
 }
 
@@ -855,7 +855,7 @@ figure.effect-marley p {
 
 figure.effect-marley p {
 	bottom: 30px;
-	color:#fff;
+	color:black;
 	line-height: 1.5;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
@@ -863,7 +863,7 @@ figure.effect-marley p {
 
 figure.effect-marley h4 {
 	top: 30px;
-	color:#fff;
+	color:black;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
@@ -1432,14 +1432,4 @@ html {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.image
-{
- float:left;
-}
-
-.right
-{
- margin-left:3em;
 }
