@@ -295,8 +295,8 @@ a:hover {
 ============================ */
 
 .about {
-	padding:10px 0;
-	padding:80px;
+	padding:5px 0;
+	padding:20px;
 	background:#fff;
 }
 
@@ -307,11 +307,39 @@ a:hover {
 }
 
 .about .text-center p {
-	margin-top:20px;
-	margin-bottom:80px;
+	margin-top:10px;
+	margin-bottom:6px;
 	color:#000000;
 	color:black;
 } 
+
+.about .text-left h2 {
+    text-transform:uppercase;
+    font-weight:550;
+    font-size:24px;
+}
+
+.about .text-left p {
+    margin-top:5px;
+    margin-bottom:80px;
+    color:#000000;
+    color:black;
+    font-size:80px;
+}
+
+.about .text-right h2 {
+    text-transform:uppercase;
+    font-weight:550;
+    font-size:24px;
+}
+
+.about .text-right p {
+    margin-top:5px;
+    margin-bottom:80px;
+    color:#000000;
+    color:black;
+    font-size:80px;
+}
 
 .btn-gamp a {
   float: right;
@@ -739,7 +767,7 @@ ul.social_icons li  a i{
 ============================ */
 
 .services {
-	padding:80px 0 80px 0;
+	padding:10px 0 10px 0;
 }
 
 .services .text-center h2 {
